@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="-1dp"
+    tools:layout_editor_absoluteY="279dp">
+
+    <Button
+        android:id="@+id/tecPoint"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tecIntro"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tec0"
+        app:layout_constraintTop_toBottomOf="@+id/tec3" />
+
+    <Button
+        android:id="@+id/tec1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="1"
+        app:layout_constraintBottom_toTopOf="@+id/tec0"
+        app:layout_constraintEnd_toStartOf="@+id/tec2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tec4" />
+
+    <Button
+        android:id="@+id/tec0"
+        android:layout_width="167dp"
+        android:layout_height="64dp"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tecPoint"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tec1" />
+
+    <Button
+        android:id="@+id/tec2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="2"
+        app:layout_constraintBottom_toTopOf="@+id/tec0"
+        app:layout_constraintEnd_toStartOf="@+id/tec3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tec1"
+        app:layout_constraintTop_toBottomOf="@+id/tec5" />
+
+    <Button
+        android:id="@+id/tec3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="3"
+        app:layout_constraintBottom_toTopOf="@+id/tecPoint"
+        app:layout_constraintEnd_toStartOf="@+id/tecIntro"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tec2"
+        app:layout_constraintTop_toBottomOf="@+id/tec6" />
+
+    <Button
+        android:id="@+id/tecIntro"
+        android:layout_width="71dp"
+        android:layout_height="169dp"
+        android:text="="
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tec3"
+        app:layout_constraintTop_toBottomOf="@+id/tecMax" />
+
+    <Button
+        android:id="@+id/tec7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="7"
+        app:layout_constraintBottom_toTopOf="@+id/tec4"
+        app:layout_constraintEnd_toStartOf="@+id/tec8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tecAC" />
+
+    <Button
+        android:id="@+id/tec8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="8"
+        app:layout_constraintBottom_toTopOf="@+id/tec5"
+        app:layout_constraintEnd_toStartOf="@+id/tec9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tec7"
+        app:layout_constraintTop_toBottomOf="@+id/tecDiv" />
+
+    <Button
+        android:id="@+id/tec9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="9"
+        app:layout_constraintBottom_toTopOf="@+id/tec6"
+        app:layout_constraintEnd_toStartOf="@+id/tecMax"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tec8"
+        app:layout_constraintTop_toBottomOf="@+id/tecMul" />
+
+    <Button
+        android:id="@+id/tec4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="4"
+        app:layout_constraintBottom_toTopOf="@+id/tec1"
+        app:layout_constraintEnd_toStartOf="@+id/tec5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tec7" />
+
+    <Button
+        android:id="@+id/tec5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="5"
+        app:layout_constraintBottom_toTopOf="@+id/tec2"
+        app:layout_constraintEnd_toStartOf="@+id/tec6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tec4"
+        app:layout_constraintTop_toBottomOf="@+id/tec8" />
+
+    <Button
+        android:id="@+id/tec6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="6"
+        app:layout_constraintBottom_toTopOf="@+id/tec3"
+        app:layout_constraintEnd_toStartOf="@+id/tecMax"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tec5"
+        app:layout_constraintTop_toBottomOf="@+id/tec9" />
+
+    <Button
+        android:id="@+id/tecMax"
+        android:layout_width="69dp"
+        android:layout_height="175dp"
+        android:text="+"
+        app:layout_constraintBottom_toTopOf="@+id/tecIntro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tec9"
+        app:layout_constraintTop_toBottomOf="@+id/tecMin" />
+
+    <Button
+        android:id="@+id/tecMin"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/tecMax"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tecMul"
+        app:layout_constraintTop_toBottomOf="@+id/number" />
+
+    <Button
+        android:id="@+id/tecMul"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="*"
+        app:layout_constraintBottom_toTopOf="@+id/tec9"
+        app:layout_constraintEnd_toStartOf="@+id/tecMin"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tecDiv"
+        app:layout_constraintTop_toBottomOf="@+id/number" />
+
+    <Button
+        android:id="@+id/tecAC"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="AC"
+        app:layout_constraintBottom_toTopOf="@+id/tec7"
+        app:layout_constraintEnd_toStartOf="@+id/tecDiv"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number" />
+
+    <Button
+        android:id="@+id/tecDiv"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="/"
+        app:layout_constraintBottom_toTopOf="@+id/tec8"
+        app:layout_constraintEnd_toStartOf="@+id/tecMul"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tecAC"
+        app:layout_constraintTop_toBottomOf="@+id/number" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="284dp"
+        android:layout_height="34dp"
+        android:ems="10"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/tecAC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="intro">INTRO</string>
+    <string name="insNum">INSERTAR NUMERO</string>
+</resources>
